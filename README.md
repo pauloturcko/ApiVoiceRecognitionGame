@@ -8,3 +8,7 @@ Este é um projeto que integra reconhecimento de voz em um jogo, ao iniciar, o c
 
 - **Reconhecimento de Voz em Tempo Real**: Integração com API de reconhecimento de voz para capturar e interpretar comandos de voz dos jogadores.
 - **Exibição na Tela**: Exibe na tela o que foi falado pelo jogador.
+
+## Acesse e se Divirta
+
+- Você pode acessar o jogo e se divertir jogando com seus amigos através deste link: https://pauloturcko.github.io/ApiVoiceRecognitionGame/
