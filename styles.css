@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --lato: "Lato", sans-serif;
+    --bgColor: #5D0E41;
+    --corSecundaria: #9BEC00;
+}
+
+body {
+    background-color: var(--bgColor);
+    color: var(--corSecundaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--lato);
+    gap: 2em;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.mensagem {
+    font-size: 1.5em;
+}
+
+.box {
+    border: 3px solid var(--corSecundaria);
+    display: inline-block;
+    padding: 10px;
+    font-size: 3em;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.btn-jogar {
+    padding: 10px;
+    border: none;
+    background-color: var(--corSecundaria);
+    color: var(--bgColor);
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
